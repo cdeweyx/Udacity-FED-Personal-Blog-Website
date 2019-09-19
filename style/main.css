@@ -1,7 +1,7 @@
 
 .container {
-    border: 2px solid black;
-    width: 100%;
+    width: 70%;
+    margin: auto;
     font-family: 'Roboto', sans-serif;
     display: grid;
     grid-template-columns: 100%;
@@ -39,12 +39,15 @@
 .title > p {
     font-weight: 700;
     color: #606060;
-    line-height: 10px;
+    line-height: 22px;
 }
 
 .search {
+   /* grid-area: right;
+    margin: auto;*/
     grid-area: right;
-    margin: auto;
+    justify-self: end;
+    padding: 25px 30px;
     width: 30px;
     height: 30px;
 
@@ -56,9 +59,13 @@
     display: block;
 }
 
+
 /* Footer */
 .footer {
     grid-area: ft;
 }
 
-/* Development */
+/* Development 
+.header > * {
+    border: 2px solid blue;
+} */
