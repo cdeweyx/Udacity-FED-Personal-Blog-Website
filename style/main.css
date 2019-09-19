@@ -50,6 +50,15 @@
     line-height: 26px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
 /* Content style */ 
 .content {
     grid-area: ct;
