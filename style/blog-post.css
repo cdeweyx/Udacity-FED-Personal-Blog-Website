@@ -103,16 +103,7 @@
     padding: 0px 10px 10px 10px;
     vertical-align: text-bottom;
     position: absolute;
-    bottom: 0px;
-}
-
-.read > * {
-    text-decoration: none;
-    color: black;
-}
-
-.read-link:hover{
-    color: blue;
+	bottom: 0px;
 }
 
 /* Footer */
@@ -130,6 +121,6 @@
 
 a > img {
     margin: auto;
-    height: 30px;
-    width: 30px;
+    height: 28px;
+    width: 28px;
 }
