@@ -5,7 +5,7 @@
     font-family: 'Roboto', sans-serif;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 1.5fr 10fr 1fr;
+    grid-template-rows: 180px auto 150px;
     grid-template-areas:
     "hd"
     "ct"
@@ -32,22 +32,15 @@
 }
 
 .title > h1 {
-    font-size: 30px;
+    font-size: 38px;
     font-weight: 700;
 }
 
 .title > p {
     font-weight: 400;
     color: #606060;
-    line-height: 22px;
-}
-
-.search {
-    grid-area: right;
-    justify-self: end;
-    padding: 25px 15px;
-    width: 30px;
-    height: 30px;
+    font-size: 20px;
+    line-height: 26px;
 }
 
 /* Content style */ 
@@ -62,7 +55,7 @@
 
 .content > .card {
     position: relative;
-    border: 2px solid lightgrey;
+    border: 4px solid lightgrey;
     border-radius: 8px;
     height: 20rem;
     width: 22rem;
@@ -70,7 +63,7 @@
 }
 
 .category {
-    font-size: 15px;
+    font-size: 16px;
     padding: 10px 10px 10px 10px;
 }
 
@@ -82,6 +75,11 @@
 #self-improv {
     font-weight: 700;
     color: darkgreen;
+}
+
+#writing {
+    font-weight: 700;
+    color: darkred;
 }
 
 .post-name {
@@ -97,7 +95,7 @@
 
 .preview {
     padding: 10px 10px 10px 10px;
-    color: #606060;
+    color:#606060;
 
 }
 
@@ -112,21 +110,21 @@
 .footer {
     grid-area: ft;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-/* Development*/
-.container > * {
-    border: 1px solid red;
+.social {
+    margin: auto 3rem;
+    padding: 0 0 
 }
 
-.card > * {
-    border: 1px solid green;
+a > img {
+    margin: auto;
+    height: 28px;
+    width: 28px;
 }
 
-.content > * {
-    border: 1px solid blue;
-}
 
-.footer > * {
-    border: 2px solid black;
-}
+
+/* Development */
